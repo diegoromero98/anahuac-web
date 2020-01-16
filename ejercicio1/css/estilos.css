@@ -1,0 +1,78 @@
+@charset "UTF-8";
+/* CSS DOCUMENT */
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+h1{
+    color: #fceb00;
+    font-family: 'Righteous', cursive;
+    font-weight: 900;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: #fffaf0 solid 20px;
+}
+
+p{
+    color: #0036e7;
+    font-family: 'Poppins', sans-serif;
+}
+
+.parrafo{
+    color: #15f700;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    margin: 0 auto;
+    width: 700px;
+    background-color: #ff7f50;
+    padding: 1em;
+    border: ivory 10px double;
+}
+
+h2{
+    color: #fff8dc;
+    font-family: 'Righteous', cursive;
+}
+
+body{
+    background-color: #00ffff;
+    background-image: url(../images/wallmonkeys-vector-seamless-background-with-dogs-icon-flat-D_NQ_NP_606600-MLM26826511698_022018-F.jpg);
+}
+
+video{
+    width: 700px;
+}
+
+img{
+    width: 700px;
+}
+
+.social{
+    width: 45px;
+}
+
+/* Aquí inicia navegación */
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+li{
+    font-family: 'Righteous', cursive;
+    list-style: none;
+    padding: 1em;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+nav ul li:hover{
+    background-color: #000000;
+    color: #fffff0;
+    padding: 1em;
+}
