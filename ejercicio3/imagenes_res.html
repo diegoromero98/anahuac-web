@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Imágenes Responsivas</title>
+    <link rel="stylesheet" href="css/res.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Imágenes Responsivas</h1>
+        </header>
+        <main>
+            <img 
+            src="images/do-miniature-schnauzers-shed-1024.jpg" 
+            alt="Perro original" 
+            sizes="(max-width: 1024px) 100vw, 1024px" 
+            srcset="
+            images/do-miniature-schnauzers-shed-468.jpg 468w,
+            images/do-miniature-schnauzers-shed-768.jpg 768w,
+            images/do-miniature-schnauzers-shed-1024.jpg 1024w,
+            ">
+
+            <picture>
+                <source media="(min-width: 767px)" srcset="images/do-miniature-schnauzers-shed-468">
+                <source media="(max-width: 768px)" srcset="images/do-miniature-schnauzers-shed-768">
+                <img src="images/do-miniature-schnauzers-shed-768.jpg" alt="prro">
+            </picture>
+        </main>
+        <footer>
+            <p>
+                Derechos reservados©
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
