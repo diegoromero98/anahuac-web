@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+    }
+
+
+/* Mis estilos */
+
+body{
+    font-family: 'Raleway', sans-serif;
+    color: #948cff;
+}
+
+.container{
+    width: 80vw;
+    margin: 0 auto;
+    background-color: #000000;
+}
+
+#tacos1{
+    width: 200px;
+    float: left;
+    shape-outside: circle(76px at center center);
+}
+
+p{
+    font-weight: 300;
+    font-size: large;
+    text-align: inherit;
+}
+
+h2{
+    font-weight: 700;
+    font-size: 2rem;
+    background-color: #6464ff;
+    color: mintcream;
+    text-align: center;
+    width: 100%;
+}
+
+header{
+    font-size: 5rem;
+    font-weight: bolder;
+    text-align: center;
+    background-color: #191970;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10000;
+    width: 100%;
+    position: sticky;
+    box-sizing: border-box;
+}
+
+h1, h2, p, img{
+    padding: .4rem;
+}
+
+footer{
+    font-weight: bolder;
+    padding: 0.4rem;
+    background-color: #001aff;
+    color: #ffffff;
+}
+
+#tacos2{
+    width: 200px;
+    size: 10px;
+    float: left;
+   clip-path: polygon(73.5% 18%, 100% 50%, 86.5% 82.5%, 26% 79.5%, 14% 53%, 34% 17%, 57.03% 34.53%);    shape-outside: polygon(73.5% 18%, 100% 50%, 86.5% 82.5%, 26% 79.5%, 14% 53%, 34% 17%, 57.03% 34.53%);
+}
+
+#tacos3{
+    float: left;
+    shape-outside: url(../images/dcgycfj-445d0da3-ccfe-4e0f-95c6-bc63bf2fbadf.png);
+}
+
+main{
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: 
+    "u u u d d d"
+    "u u u d d d"
+    ". t t t t ."
+    ". t t t t ."
+    ;
+}
+
+#art1{
+    grid-area: u;
+}
+
+#art2{
+    grid-area: d;
+}
+
+#art3{
+    grid-area: t;
+}
