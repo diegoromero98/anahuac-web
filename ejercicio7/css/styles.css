@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:300i,400,400i&display=swap');
+
+/* Box sizing reset */
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+/* my styles */
+
+h1{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 156.49pt;
+    padding: 4rem;
+    text-align: center;
+    color: white;
+}
+
+h2{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 53.24pt;
+    font-style: italic;
+    color: white;
+    text-align: center;
+}
+
+h3{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 21.56pt;
+    color: white;
+    text-align: center;
+}
+
+.container{
+    background-image: url(../images/Recurso\ 1-100.jpg);
+    background-size: cover;
+}
+
+.center{
+    width: 167.734px;
+    height: 159.059px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 1rem;
+}
+
+.facebook{
+    width: 17.379px;
+    height: 36.392px;
+}
+
+.twitter{
+    width: 36.533px;
+    height: 29.408px;
+}
+
+.instagram{
+    width: 36.323px;
+    height: 36.353px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+svg:hover{
+    fill: yellow;
+}
+/* 
+main{
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas: 
+    ". . . . . ."
+    ". . . . . ."
+    ". . . . . ."
+    ". . . . . ."
+    ". . . . . ."
+;
+} */

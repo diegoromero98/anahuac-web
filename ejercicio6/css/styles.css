@@ -65,8 +65,9 @@ html {
 h1, h2{
     font-family: 'Nunito Sans', sans-serif;
     color: white;
-    font-size: larger;
+    font-size: 2rem;
     text-align: center;
+    font-weight: bolder;
 }
 
 p, li, footer{
@@ -131,13 +132,25 @@ section{
 a{
     color: #000000;
     text-decoration: none;
-    
 }
 
 a:hover{
     color: #ffffff;
 }
 
-section:nth-child(2){
-    background-color: crimson;
+section:nth-child(3){
+    background-color: #dc143c;
+}
+
+i.fas, i.fab{
+    font-size: 4rem;
+}
+
+i.fas:hover, i.fab:hover{
+    color: #0026ff;
+}
+
+p{
+    padding: 2rem;
+    font-family: 'Times New Roman', Times, serif;
 }
