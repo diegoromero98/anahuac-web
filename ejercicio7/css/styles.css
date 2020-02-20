@@ -15,26 +15,36 @@ html {
 /* my styles */
 
 h1{
+    grid-area: u;
     font-family: 'Cormorant Garamond', serif;
     font-size: 156.49pt;
-    padding: 4rem;
+    padding: 1rem;
     text-align: center;
     color: white;
 }
 
 h2{
+    grid-area: d;
     font-family: 'Cormorant Garamond', serif;
-    font-size: 53.24pt;
+    font-size: 40pt;
     font-style: italic;
     color: white;
     text-align: center;
+    padding: 3%;
 }
 
 h3{
+    grid-area: t;
     font-family: 'Cormorant Garamond', serif;
     font-size: 21.56pt;
     color: white;
     text-align: center;
+    margin: 1rem;
+}
+
+footer{
+    text-align: end;
+    padding: 1em;
 }
 
 .container{
@@ -42,14 +52,14 @@ h3{
     background-size: cover;
 }
 
-.center{
-    width: 167.734px;
-    height: 159.059px;
+.logo{
+    /* width: 800px; */
+    height: 200px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    padding: 1rem;
+    padding: 1em;
 }
 
 .facebook{
@@ -65,28 +75,113 @@ h3{
 .instagram{
     width: 36.323px;
     height: 36.353px;
+    right: 2rem;
 }
 
 ul{
     display: flex;
-    justify-content: space-around;
-    list-style: none;
+    justify-content: last baseline;
+    justify-content: center;
 }
 
-svg:hover{
-    fill: yellow;
+.twitter:hover , .twitter:focus{
+    filter: contrast(0);
 }
-/* 
-main{
+
+.facebook:hover , .facebook:focus{
+    filter: contrast(0);
+}
+
+.instagram:hover , .instagram:focus{
+    filter: contrast(0);
+}
+
+/* .container{
     display: grid;
-    gap: 5px;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
     grid-template-rows: repeat(5, 1fr);
     grid-template-areas: 
-    ". . . . . ."
-    ". . . . . ."
-    ". . . . . ."
-    ". . . . . ."
-    ". . . . . ."
+    "."
+    "."
+    "."
+    "."
+    "."
+    ;
+} */
+
+
+
+/* main{
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 
+    "u u u u u u"
+    "d d d d d d"
 ;
 } */
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    
+}
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+@media (min-width: 1025px) and (max-width: 1280px) {
+    
+    
+}
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+@media (min-width: 768px) and (max-width: 1024px) {
+    
+
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+@media (min-width: 481px) and (max-width: 767px) {
+    
+
+    
+}
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+@media (min-width: 320px) and (max-width: 480px) {
+    
+  }
