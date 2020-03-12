@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(116, 196, 196);
+}
+
+.container{
+    background-color: black;
+}
+
+.jumbotron{
+    background-color: rgb(125, 226, 43);
+}
+
+.form-group{
+    color: white;
+    padding: 1em;
+}
+
+
+.page-footer{
+    background-color: yellow;
+    padding-top : 2em;
+}
