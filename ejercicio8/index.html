@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Diego A. Romero Rosales">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <title>Ejercicio 8 - Scroll Reveal</title>
+</head>
+
+<body>
+    <div class="container">
+        <script>
+            ScrollReveal({ reset: true });
+        </script>
+        <h1 class="headline load-hidden">
+            Efecto Scroll
+        </h1>
+    
+        <section id="seccion1">
+            <h2>Sección 1</h2>
+            <p class="tagline">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti sequi alias totam natus. Illo blanditiis sunt qui, mollitia alias eaque quibusdam voluptatum repellendus odio distinctio quisquam ea impedit hic voluptas.
+                <span class="punchline">Forever.</span>
+            </p>
+            <img src="images/mika-baumeister-77uCG7JSlq4-unsplash.jpg" alt="foto1" class="img1" style="width: 50%; height: 50%">
+        </section>
+       
+    
+        <section id="seccion2">
+            <h2>Sección 2</h2>
+            <p class="tagline2">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius obcaecati iste iure. Temporibus magni maxime eligendi sapiente eveniet ab cupiditate ipsa, accusamus dolores excepturi corrupti, illum consequatur commodi labore nemo.
+                <span class="punchline">Forever.</span>
+            </p>
+            <img src="images/tadeusz-lakota-Xh4yVFNT5iw-unsplash.jpg" alt="foto2" class="img2" style="width: 50%; height: 50%">
+        </section>
+
+        <section id="seccion3">
+            <h2>Sección 3</h2>
+            <p class="tagline3">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio nihil quae numquam cumque minima animi ullam reiciendis vel expedita tempora exercitationem assumenda at fugit, iusto impedit sapiente quo? Esse, et.
+            </p>
+            <img src="images/thai-an--_J_0_qPV6I-unsplash.jpg" alt="foto3" class="img3" style="width: 50%; height: 50%;">
+        </section>
+    </div>
+
+    <script>
+        ScrollReveal().reveal('.headline');
+        ScrollReveal().reveal('.tagline', { delay: 500 })
+        ScrollReveal().reveal('.tagline2', { delay: 700 })
+        ScrollReveal().reveal('.tagline3', { delay: 900 })
+        ScrollReveal().reveal('.punchline', { delay: 2000 })
+        ScrollReveal().reveal('.headline', { duration: 2000 });
+        ScrollReveal().reveal('.widget', { interval: 200 });
+        // ScrollReveal().reveal('.img1', { delay: 500 })
+        ScrollReveal().reveal('.img2', { delay: 700 })
+        // ScrollReveal().reveal('.img3', { delay: 900 })
+        ScrollReveal().reveal('.img3', { distance: '50px' });
+        ScrollReveal().reveal('.img1', { distance:'60px',  origin: 'left' });
+        ScrollReveal().reveal('.img2', {
+                rotate: {
+                x: 20,
+                z: 20
+                }
+                });
+    </script>
+
+    <footer>
+        Derechos Reservados©
+    </footer>
+</body>
+</html>
