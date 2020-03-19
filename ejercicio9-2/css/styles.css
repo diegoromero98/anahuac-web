@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:300i,400,400i&display=swap');
+
+/* Box sizing reset */
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+h1{
+    grid-area: u;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 156pt;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+}
+
+h2{
+    grid-area: d;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 70pt;
+    font-style: italic;
+    color: white;
+    text-align: center;
+    padding: 3%;
+    font-style: italic;
+
+}
+
+h3{
+    grid-area: t;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 40pt;
+    color: white;
+    text-align: center;
+    margin: 1rem;
+    font-style: italic;
+
+}
+
+footer{
+    text-align: end;
+    padding: 1em;
+    display: flex;
+    justify-content: last baseline;
+    justify-content: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 53pt;
+}
+
+
+.container{
+    background-image: url(../images/1x/Recurso\ 9ol.jpg);
+    background-size: cover;
+}
+
+.logo{
+    /* width: 800px;  */
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 50%; */
+    padding: 1em;
+}
+
+@media (min-width: 1281px) {
+  
+    
+}
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+@media (min-width: 1025px) and (max-width: 1280px) {
+    
+    
+}
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+@media (min-width: 768px) and (max-width: 1024px) {
+    
+
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+@media (min-width: 481px) and (max-width: 767px) {
+    
+
+    
+}
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+@media (min-width: 320px) and (max-width: 480px) {
+    
+  }
