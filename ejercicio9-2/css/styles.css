@@ -13,7 +13,6 @@ html {
 }
 
 h1{
-    grid-area: u;
     font-family: 'Cormorant Garamond', serif;
     font-size: 156pt;
     padding: 1rem;
@@ -22,7 +21,6 @@ h1{
 }
 
 h2{
-    grid-area: d;
     font-family: 'Cormorant Garamond', serif;
     font-size: 70pt;
     font-style: italic;
@@ -34,7 +32,6 @@ h2{
 }
 
 h3{
-    grid-area: t;
     font-family: 'Cormorant Garamond', serif;
     font-size: 40pt;
     color: white;
@@ -55,10 +52,10 @@ footer{
 }
 
 
-.container{
+/* .container{
     background-image: url(../images/1x/Recurso\ 9ol.jpg);
     background-size: cover;
-}
+} */
 
 .logo{
     /* width: 800px;  */
