@@ -14,57 +14,60 @@ html {
 
 h1{
     font-family: 'Cormorant Garamond', serif;
-    font-size: 156pt;
-    padding: 1rem;
+    font-size: 150pt;
     text-align: center;
     color: white;
 }
 
 h2{
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 70pt;
-    font-style: italic;
-    color: white;
-    text-align: center;
-    padding: 3%;
-    font-style: italic;
-
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 70pt;
+  font-style: italic;
+  color: white;
+  text-align: center;
+  padding: 3%;
+  font-style: italic;
 }
 
 h3{
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 40pt;
-    color: white;
-    text-align: center;
-    margin: 1rem;
-    font-style: italic;
-
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 40pt;
+  color: white;
+  text-align: center;
+  margin: 1rem;
+  font-style: italic;
 }
 
 footer{
-    text-align: end;
-    padding: 1em;
-    display: flex;
-    justify-content: last baseline;
-    justify-content: center;
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 53pt;
+  text-align: end;
+  padding: 1em;
+  display: flex;
+  justify-content: last baseline;
+  justify-content: center;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 53pt;
 }
 
 
-/* .container{
-    background-image: url(../images/1x/Recurso\ 9ol.jpg);
-    background-size: cover;
-} */
+.container{
+  background-image: url(../images/1x/Recurso\ 9ol.jpg);
+  background-size: cover;
+  line-height: 16px;
+  margin: inherit;
+}
 
 .logo{
     /* width: 800px;  */
-    height: 200px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
     /* width: 50%; */
-    padding: 1em;
+  padding: 1em;
+}
+
+.footer:hover{
+  color: aqua;
 }
 
 @media (min-width: 1281px) {
