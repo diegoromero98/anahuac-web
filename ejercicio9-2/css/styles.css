@@ -21,17 +21,17 @@ h1{
 
 h2{
   font-family: 'Cormorant Garamond', serif;
-  font-size: 70pt;
+  font-size: 60pt;
   font-style: italic;
   color: white;
   text-align: center;
-  padding: 3%;
+  padding: 0.4cm;
   font-style: italic;
 }
 
 h3{
   font-family: 'Cormorant Garamond', serif;
-  font-size: 40pt;
+  font-size: 30pt;
   color: white;
   text-align: center;
   margin: 1rem;
@@ -45,30 +45,38 @@ footer{
   justify-content: last baseline;
   justify-content: center;
   font-family: 'Cormorant Garamond', serif;
-  font-size: 53pt;
+  font-size: 40pt;
 }
 
+a:link{
+  color: #ffffff;
+}
+
+a:visited{
+  color: #ffffff;
+}
+
+a:hover{
+  color: #808080;
+}
 
 .container{
   background-image: url(../images/1x/Recurso\ 9ol.jpg);
   background-size: cover;
-  line-height: 16px;
-  margin: inherit;
+  line-height: 13px;
+  margin: 0;
 }
 
 .logo{
     /* width: 800px;  */
-  height: 200px;
+  height: 220px;
   display: block;
   margin-left: auto;
   margin-right: auto;
     /* width: 50%; */
-  padding: 1em;
+  padding-top: 2.5rem;
 }
 
-.footer:hover{
-  color: aqua;
-}
 
 @media (min-width: 1281px) {
   
